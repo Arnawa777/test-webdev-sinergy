@@ -1,0 +1,110 @@
+.search {
+    width: 500px;
+    padding-top: 10px;
+}
+
+#main-row {
+    padding: 0 0 30px 0;
+}
+
+.container-fluid .row {
+    overflow: hidden;
+}
+
+/* Index Table */
+.table {
+    /* White space in table */
+    border-collapse: separate;
+    overflow: auto;
+}
+
+.table td:not(.actionButton) {
+    /* overflow: hidden; */
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+/* Index With Cover */
+.main-cover {
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+    display: block;
+    object-position: center;
+    object-fit: cover;
+}
+
+.show-multi-img {
+    width: 150px;
+    height: 150px;
+    padding: 10px;
+    display: block;
+    object-position: center;
+    object-fit: cover;
+}
+
+.index-img {
+    display: block;
+    width: 100%;
+    max-height: 140px;
+    object-fit: cover;
+}
+
+.index-img-empty {
+    display: block;
+    width: 100%;
+    max-height: 140px;
+    object-fit: fill;
+}
+
+.table thead tr {
+    background: #2986f8;
+    color: white;
+}
+
+.table tbody {
+    border-top: 15px solid black;
+    max-height: 100px;
+}
+
+.table tbody tr {
+    /* background: #74b0fa;  */
+    background: #dbe5f1;
+    color: black;
+}
+
+.table tbody .spacer {
+    margin-bottom: 10px;
+    background: #dbe5f1;
+}
+
+.table tbody .spacer td {
+    border: 0;
+}
+
+.table tbody td i {
+    font-size: 15px;
+    color: white !important;
+}
+
+tr .action button {
+    margin-bottom: 10px;
+    width: 44px;
+    height: 34px;
+}
+
+tr .action button svg {
+    margin-bottom: 10px;
+    width: 44px;
+    height: 34px;
+}
+
+/* Index Table END */
+
+form .btn-sub {
+    margin-bottom: 5%;
+}
+
+/* Create END */
+
+/* Pagination */
